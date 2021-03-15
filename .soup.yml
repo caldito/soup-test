@@ -1,0 +1,13 @@
+---
+
+namespaces:
+  production:
+    branches: main
+  staging:
+    branches: develop
+  as-branch:
+    branches: features/*
+files:
+  - deployment.yml
+  - service.yml
+directories: []
