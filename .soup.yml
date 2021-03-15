@@ -1,12 +1,12 @@
 ---
 
 namespaces:
-  production:
-    branches: main
-  staging:
-    branches: develop
-  as-branch:
-    branches: features/*
+  - namespace: production
+    branch: main
+  - namespace: staging
+    branch: develop
+  - namespace: as-branch
+    branch: features/*
 files:
   - deployment.yml
   - service.yml
