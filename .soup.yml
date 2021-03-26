@@ -7,7 +7,6 @@ namespaces:
     branch: develop
   - namespace: as-branch
     branch: features/*
-files:
+manifests:
   - deployment.yml
   - service.yml
-directories: []
