@@ -5,7 +5,7 @@ namespaces:
     branch: main
   - namespace: staging
     branch: develop
-  - namespace: as-branch
+  - namespace: ns-creation-test
     branch: features/*
 manifests:
   - deployment.yml
